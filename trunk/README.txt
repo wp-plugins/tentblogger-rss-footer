@@ -3,7 +3,7 @@ Contributors: tentblogger
 Tags: rss, feed
 Requires at least: 3.1
 Tested up to: 3.1.1
-Stable tag: 1.0
+Stable tag: 1.1
 
 Have you ever wanted to add something to the end of each blog in your RSS feed? This plugin makes it easy!
 
@@ -15,7 +15,7 @@ Simple to install and very simple and intuitive to use.
 
 Finally, we automatically include a link back to your blog post to stop RSS content and syndication theft - be the authority on your own content!
 
-<a href="http://tentblogger.com/add-rss-feed">Read more...</a>
+<a href="http://tentblogger.com/add-rss-footer/">Read more...</a>
 
 == Installation ==
 
@@ -29,6 +29,9 @@ Finally, we automatically include a link back to your blog post to stop RSS cont
 1. TentBlogger RSS Footer
 
 == Changelog ==
+
+= 1.1 =
+* Stripping slashes when populating the textarea after saving the text. 
 
 = 1.0 =
 * Initial release
