@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TentBlogger RSS Footer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-04-07 11:02-0500\n"
+"PO-Revision-Date: 2011-04-07 11:02-0500\n"
+"Last-Translator: \n"
+"Language-Team: TentBlogger <info@tentblogger.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../tentblogger-rss-footer.php:128
+msgid "You just finished reading"
+msgstr ""
+
+#: ../tentblogger-rss-footer.php:128
+msgid " Consider leaving a comment!"
+msgstr ""
+
+#: ../views/admin.php:5
+msgid "TentBlogger's RSS Footer Plugin"
+msgstr ""
+
+#: ../views/admin.php:10
+msgid "RSS Footer Settings"
+msgstr ""
+
+#: ../views/admin.php:17
+msgid "RSS Footer updated successfully!"
+msgstr ""
+
+#: ../views/admin.php:22
+msgid "TODO: Short Description Here"
+msgstr ""
+
+#: ../views/admin.php:27
+msgid "Custom RSS Message (HTML allowed!):"
+msgstr ""
+
+#: ../views/admin.php:33
+msgid "Save My RSS Footer Message!"
+msgstr ""
+
+#: ../views/admin.php:39
+msgid "Feel free to <a href=\"http://twitter.com/tentblogger\" target=\"_blank\">follow me</a> on Twitter!"
+msgstr ""
+
