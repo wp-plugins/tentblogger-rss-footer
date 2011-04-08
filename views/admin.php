@@ -1,4 +1,4 @@
-<![CDATA[ TentBlogger Add RSS Footer 1.0 ]]>
+<![CDATA[ TentBlogger Add RSS Footer 1.1 ]]>
 <?php $options = get_option('tentblogger-rss-footer'); ?>
 <div class="wrap">
 	<h2>
@@ -38,7 +38,7 @@
 				</span>
 			</p>
 			<form id="tentblogger-rss-footer-form" method="post" action="">
-				<textarea id="tentblogger-rss-footer-content" name="tentblogger-rss-footer-content" cols="80" rows="5"><?php echo $options['tentblogger-rss-footer-content']; ?></textarea>
+				<textarea id="tentblogger-rss-footer-content" name="tentblogger-rss-footer-content" cols="80" rows="5"><?php echo trim(stripslashes($options['tentblogger-rss-footer-content'])); ?></textarea>
 				<p class="submit" class="tentblogger-feedburner-submit">
 					<?php wp_nonce_field('tentblogger-rss-footer', 'tentblogger-rss-footer-admin'); ?>
 					<input type="submit" name="submit" id="tentblogger-rss-footer-content" name="tentblogger-rss-footer-content" class="button-primary" value="<?php _e('Save My RSS Footer Message!', 'tentblogger-rss-footer'); ?>" />
