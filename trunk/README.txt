@@ -3,7 +3,7 @@ Contributors: tentblogger
 Tags: rss, feed
 Requires at least: 3.1
 Tested up to: 3.1.1
-Stable tag: 1.1
+Stable tag: 1.2
 
 Have you ever wanted to add something to the end of each blog in your RSS feed? This plugin makes it easy!
 

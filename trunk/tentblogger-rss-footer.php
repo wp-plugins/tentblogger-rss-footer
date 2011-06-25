@@ -3,7 +3,7 @@
 Plugin Name: TentBlogger Add RSS Footer
 Plugin URI: http://tentblogger.com/add-rss-feed
 Description: Have you ever wanted to add something to the end of each blog in your RSS feed? This plugin makes it easy!
-Version: 1.0
+Version: 1.2
 Author: TentBlogger
 Author URI: http://tentblogger.com
 Author Email: info@tentblogger.com
