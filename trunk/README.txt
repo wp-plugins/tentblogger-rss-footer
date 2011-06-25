@@ -30,6 +30,9 @@ Finally, we automatically include a link back to your blog post to stop RSS cont
 
 == Changelog ==
 
+= 1.2 =
+* Adding a horizontal rule above the message
+
 = 1.1 =
 * Stripping slashes when populating the textarea after saving the text. 
 
