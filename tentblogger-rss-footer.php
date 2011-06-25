@@ -125,6 +125,7 @@ class TentBlogger_RSS_Footer {
 			$rss_footer_content = trim(stripslashes($options['tentblogger-rss-footer-content']));
 			
 			$content .= '<div class="tentblogger-rss-footer">';
+        $content .= '<hr />';
 				$content .= '<p>' . __('You just finished reading', 'tentblogger-rss-footer') . ' <a href="' . $post->guid . '">' . $post->post_title . '</a>! ' . __(' Consider leaving a comment!', 'tentblogger-rss-footer') . '</p>';
 				$content .= '<p>' . $rss_footer_content . '</p>';
 			$content .= '</div>';
