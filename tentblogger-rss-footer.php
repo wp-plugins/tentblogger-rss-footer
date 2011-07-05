@@ -3,7 +3,7 @@
 Plugin Name: TentBlogger Add RSS Footer
 Plugin URI: http://tentblogger.com/add-rss-feed
 Description: Have you ever wanted to add something to the end of each blog in your RSS feed? This plugin makes it easy!
-Version: 1.2
+Version: 2.0
 Author: TentBlogger
 Author URI: http://tentblogger.com
 Author Email: info@tentblogger.com
@@ -64,8 +64,10 @@ class TentBlogger_RSS_Footer {
 	 */
 	function admin() {
 		if(function_exists('add_menu_page')) {
-			$this->load_file('tentblogger-rss-footer-styles', '/tentblogger-rss-footer/css/admin.css');
-			add_menu_page('RSS Footer', 'RSS Footer', 'administrator', 'tentblogger-rss-footer', array($this, 'display'));
+      if(!$this->my_menu_exists('tentblogger-handle')) {
+        add_menu_page('TentBlogger', 'TentBlogger', 'administrator', 'tentblogger-handle', array($this, 'display'));
+      }
+      add_submenu_page('tentblogger-handle', 'TentBlogger', 'RSS Footer', 'administrator', 'tentblogger-rss-footer-handle', array($this, 'display'));
 		} // end if
 	} // end admin
 	
@@ -160,7 +162,31 @@ class TentBlogger_RSS_Footer {
 			} // end if
 		} // end if
 	} // end _load_file
-	
+		
+  /**
+   * http://wordpress.stackexchange.com/questions/6311/how-to-check-if-an-admin-submenu-already-exists
+   */
+  private function my_menu_exists( $handle, $sub = false){
+    if( !is_admin() || (defined('DOING_AJAX') && DOING_AJAX) )
+      return false;
+    global $menu, $submenu;
+    $check_menu = $sub ? $submenu : $menu;
+    if( empty( $check_menu ) )
+      return false;
+    foreach( $check_menu as $k => $item ){
+      if( $sub ){
+        foreach( $item as $sm ){
+          if($handle == $sm[2])
+            return true;
+        }
+      } else {
+        if( $handle == $item[2] )
+          return true;
+      }
+    }
+    return false;
+  } // end my_menu_exists
+  
 } // end TentBlogger_RSS_Footer
 new TentBlogger_RSS_Footer();
 ?>
