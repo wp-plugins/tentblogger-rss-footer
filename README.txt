@@ -2,8 +2,8 @@
 Contributors: tentblogger
 Tags: rss, feed
 Requires at least: 3.1
-Tested up to: 3.2
-Stable tag: 2.1
+Tested up to: 3.3
+Stable tag: 2.2
 
 Have you ever wanted to add something to the end of each blog in your RSS feed? This plugin makes it easy!
 
@@ -29,6 +29,10 @@ Finally, we automatically include a link back to your blog post to stop RSS cont
 1. TentBlogger RSS Footer
 
 == Changelog ==
+
+= 2.2 =
+* 3.3 compatibility
+* Custom header image
 
 = 2.1 =
 * Resolving a repository conflict
