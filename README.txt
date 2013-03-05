@@ -3,11 +3,13 @@ Contributors: tentblogger
 Tags: rss, feed
 Requires at least: 3.1
 Tested up to: 3.3
-Stable tag: 2.2
+Stable tag: 2.3
 
-Have you ever wanted to add something to the end of each blog in your RSS feed? This plugin makes it easy!
+Note: This plugin is no longer under active development. If you're interested in maintaining it, please contact me.
 
 == Description ==
+
+Have you ever wanted to add something to the end of each blog in your RSS feed? This plugin makes it easy!
 
 This plugin allows you to easily add content, links, or anything else you'd like at the end of blog post via your RSS feed. Create links to anywhere you'd like such as other blogs, other posts of interest, or even affiliate sponsors and products! Do whatever you'd like with it!
 
@@ -29,6 +31,9 @@ Finally, we automatically include a link back to your blog post to stop RSS cont
 1. TentBlogger RSS Footer
 
 == Changelog ==
+
+= 2.3 =
+* Ending development of the plugin
 
 = 2.2 =
 * 3.3 compatibility
